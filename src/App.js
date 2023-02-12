@@ -1,5 +1,5 @@
 import "./App.css";
-
+import LoginForm from "./components/LoginForm.js";
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
         <div class="notification">
           Edit the <code>./src</code> folder to add components.
         </div>
+        <LoginForm/>
       </div>
     </div>
   );
